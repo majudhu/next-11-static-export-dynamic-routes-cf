@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 
 export default function Home() {
   const { query } = useRouter();
